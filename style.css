@@ -1,0 +1,127 @@
+@font-face {
+    font-family: "Nunito";
+    src: url(fonts/Nunito.ttf);
+}
+
+body {
+    background-color: #101;
+    color: white;
+    font-family: Nunito, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #444;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav li a {
+    color: #999;
+    text-decoration: none;
+    margin-right: 40px;
+    font-size:20pt;
+}
+
+nav li a:hover {
+    color: #919;
+    text-decoration: none;
+}
+
+nav li a:visited {
+    color: #999;
+}
+
+
+
+footer p {
+    font-size: 8pt;
+    text-align:center;
+}
+
+
+
+hr {
+    border: none;
+    border-top: 2px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: #f8f;
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: cyan;
+}
+
+a:visited {
+    color: #a2a;
+}
+
+
+h1 {
+    font-size: 20pt;
+}
+
+h2 {
+    font-size: 15pt;
+}
+
+nav li a {
+    font-size: 14pt;
+}
+
+p { 
+    font-size: 12pt;
+}
+
+
+
+
+
+.content {
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid lightpink;
+    border-radius: 15px;
+    padding: 16px;
+}
+
+@media (max-width: 1200px) {
+
+
+    .content {
+        width: 100%;
+        border: none;
+        padding: 4px;
+    }
+    
+
+    h1 {
+        font-size: 40pt;
+    }
+    
+    h2 {
+        font-size: 30pt;
+    }
+    
+    p {
+        font-size: 14pt;
+        color: #ddd;
+    }
+
+    nav ul li a {
+        font-size: 24pt;
+    }
+
+  }
