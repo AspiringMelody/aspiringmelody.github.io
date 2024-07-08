@@ -104,6 +104,15 @@ p {
     padding: 16px;
 }
 
+
+.centerlist li {
+    background-image: url('images/icons/flowericon.png');
+    background-repeat: no-repeat;
+    background-position: 6px 0px;
+    text-indent: 2.5rem;
+    line-height:32px;
+}
+
 @media (max-width: 1200px) {
 
 
